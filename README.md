@@ -10,7 +10,7 @@ My data Analysis journey with Ladies in Tech Africa(The Incubator Hub), on a jou
 - Statistical Analysis: Applying statistical methods to analyze data and draw meaningful conclusions.
 
 ## Tools used
-- Microsoft Excel for data for data analysis, cleaning and visualization[Download Here](https://microsoft.com)
+- Microsoft Excel for data for data analysis, cleaning and visu-alization[Download Here](https://microsoft.com)
 - SQL- Structured query language for Querying of Data[Download Here](https://www.mysql.com)
 - Github for Portfolio building [Download Here](https://github.com)
 - Power Bi for Data Cleaning and visualization. [Download Here](https://powerbi.microsoft.com/en-us/downloads/)
@@ -23,3 +23,15 @@ In the intial phase, we carried out:
 3. Data formatting and cleaning
 
 ## Exploratory Data Analysis
+Exploratory Data Analysis involved answering questions about the data such as: 
+- what is the overall sales trend?
+- what product are top sellers?
+- what are the products on peak sales?
+
+## Data Analysis
+this is where we include some basic lines of code or queries or even DAX expressions used in the analysis:
+
+```SQL
+SELECT * FROM TABLE !
+WHERE CONDTION= TRUE
+
