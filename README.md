@@ -74,7 +74,7 @@ ADD AGE AS datediff( year, Date_of_Birth, Hiredate)
 
 ```
 ## Data Visualization
-![Screenshot (3)](https://github.com/user-attachments/assets/c5d6abea-f179-4e54-8485-8d0a25040078)
+
 
 
 
