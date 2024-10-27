@@ -1,4 +1,4 @@
-# LITA_Projects
+# LITA_Class Documentation
 My data Analysis journey with Ladies in Tech Africa(The Incubator Hub), on a journey to career Transitioning. I am cureently learning and working on various projects to biuld my expertise. Below you will find a selection go my projects that showcase my learning journey and growing proficiency in data analysis. 
 
 ## Skills
