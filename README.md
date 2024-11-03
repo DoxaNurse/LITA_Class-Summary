@@ -1,6 +1,16 @@
 # LITA_Class Documentation
 My data Analysis journey with Ladies in Tech Africa(The Incubator Hub), on a journey to career Transitioning. I am cureently learning and working on various projects to biuld my expertise. Below you will find a selection go my projects that showcase my learning journey and growing proficiency in data analysis. 
 
+[Skills](#skills)
+
+[Tools used](#tools-used)
+
+[Data Aggregation with Microsoft Excel](#data-aggregation-with-microsoft-excel)
+
+[Data Summarization with Pivot Tables](#data-summarization-with-pivot-tables)
+
+[SQL For data Summarization and Aggregation](#sql-for-data-summarization-and-aggregation)
+
 ## Skills
 - SQL: Proficient in writing complex queries, data manipulation, and database management.
 - Microsoft Excel: Advanced skills in data analysis, pivot tables, VLOOKUP, and data visualization.
@@ -79,7 +89,7 @@ LEFT, RIGHT, MID, SEARCH, FIND, LOWER, UPPER, PROPER, RANDBETWEEN, TRIM, CONCAT,
 
 ![Screenshot (142)](https://github.com/user-attachments/assets/f33942be-1a06-4dad-9f0d-2765bb68f11d)
 
-## SQL For data Summarization and Aggregations
+## SQL For data Summarization and Aggregation
 this is where we include some basic lines of code or queries or even DAX expressions used in the analysis:
 
 ```SQL
