@@ -1,17 +1,22 @@
 # LITA_Class Documentation
 My data Analysis journey with Ladies in Tech Africa(The Incubator Hub), on a journey to career Transitioning. I am cureently learning and working on various projects to biuld my expertise. Below you will find a selection go my projects that showcase my learning journey and growing proficiency in data analysis. 
 
-[Skills](#skills)
+[SKILLS](#skills)
 
-[Tools used](#tools-used)
+[TOOLS USED](#tools-used)
 
-[Data Aggregation with Microsoft Excel](#data-aggregation-with-microsoft-excel)
+[DATA AGGREGATION WITH MICROSOFT EXCEL](#data-aggregation-with-microsoft-excel)
 
-[Data Summarization with Pivot Tables](#data-summarization-with-pivot-tables)
+[DATA SUMMARIZATION WITH PIVOT TABLE](#data-summarization-with-pivot-table)
 
-[SQL For data Summarization and Aggregation](#sql-for-data-summarization-and-aggregation)
+[SQL FOR DATA SUMMARIZATION AND AGGREGATION](#sql-for-data-summarization-and-aggregation)
 
-## Skills
+[DATA VISUALIZATION AND SUMMARIZATION WITH POWER BI](#data-visualization-and-summarization-with-power-bi)
+
+[CONCLUSION](#conclusion)
+
+## SKILLS
+---
 - SQL: Proficient in writing complex queries, data manipulation, and database management.
 - Microsoft Excel: Advanced skills in data analysis, pivot tables, VLOOKUP, and data visualization.
 - Power BI: Experienced in creating interactive dashboards and reports to visualize data insights.
@@ -19,26 +24,28 @@ My data Analysis journey with Ladies in Tech Africa(The Incubator Hub), on a jou
 - Data Cleaning: Expertise in cleaning and preparing data for analysis.
 - Statistical Analysis: Applying statistical methods to analyze data and draw meaningful conclusions.
 
-## Tools used
+## TOOLS USED
+---
 - Microsoft Excel for data for data analysis, cleaning and visu-alization[Download Here](https://microsoft.com)
 - SQL- Structured query language for Querying of Data[Download Here](https://www.mysql.com)
 - Github for Portfolio building [Download Here](https://github.com)
 - Power Bi for Data Cleaning and visualization. [Download Here](https://powerbi.microsoft.com/en-us/downloads/)
 
 
-## Data Aggregation with Microsoft Excel
+## DATA AGGREGATION WITH MICROSOFT EXCEL
+---
 In the intial phase on Microsoft Excel, we carried out:
 1. Data Loading and Inspection
 2. Handling missing variables
 3. Data formatting and cleaning
 
-- Using basic excel functions, we carried out aggregration with condition. The following functions were used to carry out the Aggregration of Numbers in the tables below: 
+- Using basic excel functions 1 File, we carried out aggregration with condition. The following functions were used to carry out the Aggregration of Numbers in the tables below: 
 SUM, AVERAGE, MAX, MIN, COUNT, LARGE, SMALL, SUMIF, AVERAGEIF, MAXIFS,MINIFS, COUNTIF. These functions were used to extract the values specified in the following tables. 
 ![Screenshot (120)](https://github.com/user-attachments/assets/bc3b5406-3513-41fa-bf0d-9452dec9e41d)
 
 ![Screenshot (119)](https://github.com/user-attachments/assets/cf229853-b44f-44a1-9de5-ef72e2183c8c)
 
-- Using basic excel functions, we carried out data aggregration. The following functions were used to carry out the Extraction of texts anf compostion in the tables below: 
+- Using basic excel functions 2 File, we carried out data aggregration. The following functions were used to carry out the Extraction of texts anf compostion in the tables below: 
 LEFT, RIGHT, MID, SEARCH, FIND, LOWER, UPPER, PROPER, RANDBETWEEN, TRIM, CONCAT, CONCATENATE, TEXT JOIN. These functions were used to extract the values specified in the following tables. 
 
 ![Screenshot (124)](https://github.com/user-attachments/assets/1a0788b3-0606-42d6-b3f8-4c6b07a26cd7)
@@ -51,16 +58,17 @@ LEFT, RIGHT, MID, SEARCH, FIND, LOWER, UPPER, PROPER, RANDBETWEEN, TRIM, CONCAT,
 
 ![Screenshot (128)](https://github.com/user-attachments/assets/dfdf3b49-133f-4091-ab24-4e98139449e7)
 
-- Using Excel functions LookUp, we carried out aggregration. The Lookup function is to locate values in the simple salary structure table for for aggregation. The basic LOOKUP functions used to carry out the Extraction and composition of values in the table below include: VLOOKUP, HLOOKUP, INDEX, MATCH, CHOOSE, XLOOKUP, INDEX&MATCH, INDIRECT. These functions were used to extract the values specified in the table. 
+- Using Excel functions 3 LookUp file, we carried out aggregration. The Lookup function is to locate values in the simple salary structure table for for aggregation. The basic LOOKUP functions used to carry out the Extraction and composition of values in the table below include: VLOOKUP, HLOOKUP, INDEX, MATCH, CHOOSE, XLOOKUP, INDEX&MATCH, INDIRECT. These functions were used to extract the values specified in the table. 
 
 ![Screenshot (131)](https://github.com/user-attachments/assets/be97c55c-290b-4b44-9f4c-8e6fa5b1c8f6)
 
-- Using excel functions-Condtionals, we filled in missing variables. . The following condtional functions were used to fill in the blank column on the transaction category in the table below: IF, SWITCH, IFS, AND, OR, XOR. This functions were used to extract the values specified in the TABLE
+- Using excel functions-Condtionals and Pivot tables file, we filled in missing variables. . The following condtional functions were used to fill in the blank column on the transaction category in the table below: IF, SWITCH, IFS, AND, OR, XOR. This functions were used to extract the values specified in the TABLE
 
 ![Screenshot (134)](https://github.com/user-attachments/assets/cf7c1207-ec1b-4037-92f0-28bcb18c5fec)
 
 
-## Data Summarization with Pivot Tables
+## DATA SUMMARIZATION WITH PIVOT TABLE
+---
 - **Revenue by Region**:These columnal chart and Pivot table analyses the contribution of each region to the revenue with North east recording the highest at about 18 billion.
 
 ![Screenshot (135)](https://github.com/user-attachments/assets/969b2e64-9760-4ed1-ba7b-808722eaf253)
@@ -89,7 +97,8 @@ LEFT, RIGHT, MID, SEARCH, FIND, LOWER, UPPER, PROPER, RANDBETWEEN, TRIM, CONCAT,
 
 ![Screenshot (142)](https://github.com/user-attachments/assets/f33942be-1a06-4dad-9f0d-2765bb68f11d)
 
-## SQL For data Summarization and Aggregation
+## SQL FOR DATA SUMMARIZATION AND AGGREGATION
+---
 this is where we include some basic lines of code or queries or even DAX expressions used in the analysis:
 
 ```SQL
@@ -608,8 +617,57 @@ where years in ('2017', '2018', '2019')
 Group by Countries
 order by 3 desc
 ```
-## Data Visualization with Power bi
+## DATA VISUALIZATION AND SUMMARIZATION WITH POWER BI
+---
+### HR Data Visualization to assess Attrition Count against several Parameters
+The following cards visualizes the total Number of Employee is 1470, the number of current Employee sums 1233 which gives the total Attrition Count 237 at 16% rate and Average age of Employee at 387 which will give a backgeound to the rest of the visualization. The baseline for the Visualizations is to asess Attrtion count against various parameters. 
+
+![Screenshot (152)](https://github.com/user-attachments/assets/9f42dffe-727e-4e97-8efb-6d0a834b587c)
+
+![Screenshot (153)](https://github.com/user-attachments/assets/3b543cbe-38e5-423c-b646-93d4669c635b)
+
+![Screenshot (154)](https://github.com/user-attachments/assets/55d4fb0d-c0f2-4c35-8b77-f665f52ff3ad)
+
+![Screenshot (156)](https://github.com/user-attachments/assets/87d9b0d6-3abe-4818-a4b2-aaa155aa0053)
+
+**Employee Distribution by age band and Gender**: This columnal chart shows the proportion of employees according to their age and gender with the age band 35-44 hasving the highest number of employee for both gender. 
+
+![Screenshot (162)](https://github.com/user-attachments/assets/07a8f2da-8323-4d5c-8c7b-d0208497f634)
+
+**Attrition count by Gender**: The pie chart Visualize the variation in gender for the Attrition with the male gender having 2/3 (150) of the total attrition within the organization.
+
+![Screenshot (157)](https://github.com/user-attachments/assets/d23beffb-a08c-4651-9a08-0f26cdb139cd)
+
+**Attrition count by Education Field**: This Bar chart visualizes the education field recording the highest number of Attrition with Life Sciences(89) recording the highest and Medicals(63) tailing behind. 
+
+![Screenshot (158)](https://github.com/user-attachments/assets/0e393d91-a74b-4c3f-bf32-7890e981061d)
+
+**Attrition Count By Educational Qualification**: This columnal chart shows the qualification with the highest Attrition with Bachelors(99)ntaking the lead and Doctorate(5) being the least.
+
+![Screenshot (159)](https://github.com/user-attachments/assets/e67c2478-f44a-4b7b-90d5-1d44d693a0ba)
+
+**Attrtion count by Department**: This pie chart illustrates the department with the highest number of employee leaving with R&D having more than half of the count and HR being the least. 
+
+![Screenshot (160)](https://github.com/user-attachments/assets/708fa3a4-18c0-478e-9ac4-cc9d78d3006d)
+
+**Attrition based on Age Group and Gender**: This range of chart illustrates atttrtion based on gender snd age group with age 25-34 recording the highest Attrition at 112 and Age Over 55 recording the lowest at 12, across all age groups, the male Gender had the highest Attrtion. 
+
+![Screenshot (163)](https://github.com/user-attachments/assets/39fc7afe-5f49-436b-ad98-5435ebae41bb)
 
 
+## CONCLUSION
+---
+The HR data analysis on employee attrition has shed light on crucial factors influencing workforce stability and organizational health. Key insights from the analysis include:
+
+**Departmental Impact** : Highlighted departments with higher attrition rates, allowing for targeted interventions to improve retention.
+
+**Employee Demographics**: Analyzed the demographics of departing employees to understand if age, dender, or other factors contribute significantly to attrition.
+
+**Performance Metrics**: Examined the relationship between performance ratings and attrition to identify if high performers are more likely to leave.
+
+**Compensation and Benefits**: Assessed how compensation and benefits influence attrition, providing insights for competitive salary structuring.
 
 
+These findings enable us to develop targeted strategies to reduce turnover, such as enhancing employee engagement, optimizing compensation packages, and implementing retention programs tailored to at-risk groups. Addressing these issues proactively will not only improve retention but also enhance overall employee satisfaction and organizational performance.
+
+By continually monitoring attrition metrics and implementing data-driven strategies, we can foster a more stable and motivated workforce, ultimately driving the organization towards long-term success.
