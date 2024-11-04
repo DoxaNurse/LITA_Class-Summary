@@ -654,6 +654,10 @@ The following cards visualizes the total Number of Employee is 1470, the number 
 
 ![Screenshot (163)](https://github.com/user-attachments/assets/39fc7afe-5f49-436b-ad98-5435ebae41bb)
 
+### Map Data Visualization
+This Map illustrates the location of various states In Nigeria and their Population Size. 
+
+![Screenshot (55)](https://github.com/user-attachments/assets/f84ef071-3764-4ca6-95a6-a011b7a5d97e)
 
 ## CONCLUSION
 ---
